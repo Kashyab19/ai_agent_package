@@ -1,0 +1,39 @@
+
+---
+
+### **📜 `.gitignore` (Updated for Python & Virtual Environments)**
+
+```gitignore
+# Virtual Environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized files
+*.pyo
+*.pyc
+*.pyd
+__pycache__/
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Package files
+build/
+dist/
+*.egg-info/
+
+# Python virtual environment
+venv/
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.coverage
+.tox/
+nosetests.xml
+pytest_cache/
