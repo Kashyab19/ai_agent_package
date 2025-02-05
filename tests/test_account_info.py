@@ -2,7 +2,7 @@ from ai_agent.account_info import AccountInfoFetcher, AccountRequest
 
 def test_account_info():
     agent = AccountInfoFetcher()
-    request = AccountRequest(account_id="root.near")
+    request = AccountRequest(account_id="trywell.testnet")
     account_data = agent.get_account_info(request)
 
     # Print the response for debugging
