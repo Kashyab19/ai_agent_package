@@ -21,7 +21,7 @@ class AccountInfoFetcher(BlockchainAction):
         :return: Account details in JSON format.
         """
         params = {
-            "request_type": "view_account",  # ✅ Correct method for querying account details
+            "request_type": "view_account",  
             "finality": "final",
             "account_id": request.account_id,
         }
